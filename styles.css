@@ -1,7 +1,30 @@
 html{
-	background-color: pink;
+	background-color: gray;
 }
 
 h1{
 	color: white;
+}
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: orange;
+}
+
+/* mouse over link */
+a:hover {
+  color: purple;
+}
+
+/* selected link */
+a:active {
+  color: green;
+} 
+a.navigation:hover, a.navigation:active {font-family: monospace;}
+a:hover {
+  background-color: pink;
 }
