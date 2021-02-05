@@ -28,3 +28,10 @@ a.navigation:hover, a.navigation:active {font-family: monospace;}
 a:hover {
   background-color: pink;
 }
+img{
+	height: 400px;
+	width: auto;
+}
+p{
+	width: 460px;
+}
