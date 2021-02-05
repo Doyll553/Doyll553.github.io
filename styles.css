@@ -3,7 +3,15 @@ html{
 }
 
 h1{
+	font-family: helvetica;
+	font-size: 65px;
 	color: white;
+	padding-left: 30px
+}
+p{
+	font-family: courier ;
+	font-size: 35px;
+	padding-left: 30px;
 }
 /* unvisited link */
 a:link {
@@ -24,14 +32,21 @@ a:hover {
 a:active {
   color: green;
 } 
-a.navigation:hover, a.navigation:active {font-family: monospace;}
+a.navigation:hover, a.navigation:active {font-family: helvetica;}
 a:hover {
   background-color: pink;
 }
 img{
 	height: 400px;
 	width: auto;
+	padding-left: 150px
 }
 p{
-	width: 460px;
+	width: 800px;
+}
+ul{
+	font-family: courier ;
+	font-size: 35px;
+	padding-left: 180px;
+
 }
